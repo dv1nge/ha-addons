@@ -20,6 +20,3 @@ options:
 schema:
   FIREFLY_URL: str
   FIREFLY_TOKEN: str
-environment:
-  FIREFLY_URL: "{{ FIREFLY_URL }}"
-  FIREFLY_TOKEN: "{{ FIREFLY_TOKEN }}"
