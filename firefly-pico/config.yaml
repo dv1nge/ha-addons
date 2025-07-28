@@ -8,16 +8,18 @@ arch:
   - aarch64
 startup: services
 boot: auto
-panel: false
+ingress: true
+panel_admin: false
+panel_icon: "mdi:cash"
 ports:
   3000/tcp: 8070
 options:
-  FIREFLY_III_URL: "http://your-firefly-url:8080"
+  FIREFLY_III_URL: "http://<addon-id>-firefly-iii:8080"
   FIREFLY_III_PAT: "PASTE_YOUR_PAT_HERE"
 schema:
   FIREFLY_III_URL: str
   FIREFLY_III_PAT: str
 environment:
-  FIREFLY_III_URL: "http://your-firefly-url:8080"
+  FIREFLY_III_URL: "http://<addon-id>-firefly-iii:8080"
   FIREFLY_III_PAT: "PASTE_YOUR_PAT_HERE"
 image: "ghcr.io/cioraneanu/firefly-pico"
