@@ -6,4 +6,6 @@ export FIREFLY_TOKEN=$(jq -r .FIREFLY_TOKEN /data/options.json)
 echo "FIREFLY_URL=$FIREFLY_URL"
 echo "FIREFLY_TOKEN=$FIREFLY_TOKEN"
 
+env | grep FIREFLY
+
 exec node .output/server/index.mjs
