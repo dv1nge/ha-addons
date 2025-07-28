@@ -23,4 +23,3 @@ schema:
 environment:
   FIREFLY_III_URL: "http://<addon-id>-firefly-iii:8080"
   FIREFLY_III_PAT: "PASTE_YOUR_PAT_HERE"
-image: "ghcr.io/cioraneanu/firefly-pico:latest"
