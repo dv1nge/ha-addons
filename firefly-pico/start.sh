@@ -9,4 +9,4 @@ echo "FIREFLY_URL=$FIREFLY_URL"
 echo "FIREFLY_TOKEN=$FIREFLY_TOKEN"
 
 # Exec the real Firefly Pico start command (from original image)
-exec /entrypoint.sh
+exec npm run start
