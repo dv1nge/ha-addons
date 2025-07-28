@@ -10,7 +10,8 @@ startup: services
 boot: auto
 ingress: true
 panel_admin: false
-panel_icon: "mdi:cash"
+panel_icon: "mdi:piggy-bank"
+icon: "icon.png"
 ports:
   3000/tcp: 8070
 options:
